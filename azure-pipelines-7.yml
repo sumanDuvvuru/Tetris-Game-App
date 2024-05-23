@@ -17,7 +17,7 @@ variables:
   tag: '$(Build.BuildId)'
 
 pool:
-  name: 'Own Agent'
+  name: 'vm'
    
 
 stages:
