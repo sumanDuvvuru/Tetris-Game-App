@@ -16,8 +16,9 @@ variables:
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
- pool:
+pool:
   name: 'Own Agent'
+   
 
 stages:
 - stage: Build
